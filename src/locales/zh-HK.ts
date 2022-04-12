@@ -4,6 +4,7 @@ import { base } from './base'
 const typeTemplate = '${label}不是一個有效的${type}'
 
 const zhHK = mergeLocale(base, {
+  locale: 'zh-HK',
   common: {
     confirm: '確定',
     cancel: '取消',
